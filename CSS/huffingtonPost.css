@@ -1,0 +1,156 @@
+/* BOX MODEL HACK */
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 15px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
+/******************** Layout ************************/
+header{
+  background-color: #105047eb;
+  border: 1px solid black;
+  height:122px;
+  width:100%;
+  color: white;
+  text-align: center;
+}
+.headerPic{
+width: 20%;
+height: 122px;
+float: left;
+}
+.title {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+  width: 60%;
+  height: 122px;
+  float: left;
+}
+.title h2{
+  font-size: 3rem;
+}
+
+.icons {
+  width: 20%;
+  float: left;
+  padding-top: 2rem;
+}
+
+.icons li {
+  display: inline-block;
+}
+
+.icons li i{
+  font-size: 2rem;
+  padding-left:.75em;
+  padding-right: .75em;
+
+}
+
+.header-pic {
+  float: left;
+  height: 102px;
+}
+
+section nav {
+  text-align: center;
+}
+section nav ul li{
+  display: inline-block;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 1.07rem;
+  font-weight: bolder;
+}
+main{
+  width:100%;
+}
+
+.text{
+  height:190px;
+  width:100%;
+}
+.text h1{
+  font-size: 5.3em;
+  margin-top: 2rem;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 2em;
+}
+.pics{
+  height: 90%;
+  width: 100%;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom:6em;
+}
+.pics img{
+  height: 396px;
+  width: 336px;
+}
+.container{
+  width:100%;
+}
+.topRow .bottomRow{
+  width: 100%;
+}
+.topRow section img{
+  height: 134px;
+  width: 311px;
+}
+
+.bottomRow section img{
+  height: 158px;
+  width: 311px;
+  }
+.topRow section, .bottomRow section{
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  height: 250px;
+  width: 22%;
+  float: left;
+}
+
+footer{
+  padding-top: 80px;
+  width:100%;
+  clear: both;
+  background-color: black;
+}
+footer nav{
+  text-align: center;
+}
+footer nav ul{
+  margin-top: 1em;
+}
+footer nav ul li{
+  padding-left: 1rem;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+}
+footer p{
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/******************* Additional Styles *********************/
